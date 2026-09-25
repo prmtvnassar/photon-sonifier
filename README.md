@@ -3,8 +3,6 @@
 TSL2591 light sensor + Raspberry Pi: one recording of phone light through a foil pinhole, turn the
 sensor's noise into random numbers, play them as music, and generate the LaTeX report from the data.
 
-Follow `tutorial/tutorial.pdf`. Run order on the Pi:
-
 ```
 python3 collect.py check      # wiring, aiming, light-leak test
 python3 collect.py run        # the one recording (move the phone until it says "good", press Enter)
